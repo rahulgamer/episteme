@@ -1,0 +1,686 @@
+/*------------------------------------------------------------*/
+/* Epsiteme Custom CSS based on Foundation Zurb framework 	  */
+/* Check http://foundation.zurb.com/docs for documentation	  */
+/*------------------------------------------------------------*/
+
+/*--------------------
+ * Common Styles
+ *------------------*/
+
+p, a, li {
+	font-family: "proxima_novalight",Helvetica,Arial,sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "proxima_novasemibold",Helvetica,Arial,sans-serif; }
+
+#menu-container {
+	background: #4b5660;
+	-webkit-box-shadow: inset -38px 0px 61px -27px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset -38px 0px 61px -27px rgba(0,0,0,0.75);
+	box-shadow: inset -38px 0px 61px -27px rgba(0,0,0,0.75); }
+
+#menu-container, #main-container, #quick-links {
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s; }
+.page #main-container-home {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	min-height: 585px;
+	padding-left:0;
+	padding-right:0;
+}
+.ap-user-card{width:33%;}
+.ap-user-card .user-name{font-size:11px;  vertical-align: top;}
+.module-name {
+	font-size: 0.95rem;
+	padding-left: 0.6rem; }
+#ap-profile .ap-profile-head .ap-user-image {
+    padding: 0;
+}
+#ap-messagebox{
+	top: 24px;
+}
+.module-name-mobile {
+	font-size: 0.95rem;
+	padding-left: 0.6rem; }
+
+.module-name-header {
+	padding: 1.7rem 0 0; }
+.ap-user-card .ap-follow-btn {
+float: right;
+padding: 0 5px;
+}
+input[type="text"], input[type="password"]{
+	width:80%;
+}
+form {
+    margin-bottom: 0;
+	padding:15px;
+}
+.login_label{
+    float: left;
+    width: 20%;
+}
+.fancybox-skin{width:400px !important; padding:0 !important;}
+#LoginWelcomeText {
+    color: White;
+    font-family: Segoe UI;
+    font-size: 22px;
+    margin-left: 20%;
+    margin-top: 10px;
+    position: absolute;
+}
+
+#LoginTitleDiv {
+    background-image: url("img/popup_banner.png");
+    background-repeat: no-repeat;
+    height: 48px;
+    width: 400px;
+}
+.login_p {
+    margin: 0;
+    padding-top: 10px;
+	font-size:13px;
+}
+.post-inner {
+    background: none repeat scroll 0 0 #fff;
+    padding: 0px;
+}
+.home .category-magazine .post-inner {
+	display:none;
+}
+.side-nav li a:not(.button)
+{
+	font-size:1.1rem;
+}
+.ap-quick-ask {
+    background: none repeat scroll 0 0 #F2F2F2;
+    margin-top: 10px;
+    padding: 15px;
+	overflow:hidden;
+}
+header {
+	border-bottom: solid 1px #dedede;
+	box-shadow: 0px 10px 36px -10px rgba(61,61,61,0.15); }
+
+.login-button{
+    background: none repeat scroll 0 0 #0151a5;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "proxima_novalight",Helvetica,Arial,sans-serif;
+    font-size: 1.1rem;
+	padding-top:3px;
+	padding-bottom:3px;
+    font-weight: bold;
+    width: 110px;
+	display:block;
+	margin:0 auto;
+	border:none;
+	border-radius:5px;
+}
+.fancybox-close{display:none;}
+.register-expert {
+	padding-top: 1.8rem; }
+.ap-container .ap-tabs > li.active > a {
+    background: none repeat scroll 0 0 #949FA9;
+}
+@media only screen and (min-width:40.063em) and (max-width:51.313em) {
+	.register-expert {
+		padding-top: 1rem;
+		line-height: 1.5; } }
+
+header button, .button {
+	margin: 0;
+	padding: 0.8rem 1rem;
+	font-size: 0.8rem;
+	font-family: "proxima_novalight",Helvetica,Arial,sans-serif; }
+
+.side-nav li a:not(.button) {
+    color: #fff;
+    cursor: pointer;
+    left: 0;
+    padding-left: 54px;
+    position: absolute;
+    width: 100%;
+}
+.side-nav li {
+    border-top: 1px solid #959595;
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding: 0.4375rem 0.875rem;
+    vertical-align: middle;
+    width: 100%;
+	height:55px;
+}
+.anspress .content {
+   position:static;
+}
+.quick-links {
+	background-color: #efefef;
+	font-size: 0.9rem;
+	padding: 1rem 0;
+	height: 4rem;
+	position: fixed;
+	bottom: 0 }
+
+.quick-links a {
+	color: grey; }
+
+.quick-links ul {
+	list-style-type: none;
+	line-height: 2rem; }
+
+.quick-links ul li:nth-child(1) {
+	font-size: 0.7rem;
+	color: grey;
+	margin-top: 0rem; }
+h2.forum {
+    color: #000;
+    left: 455px;
+    position: absolute;
+    text-align: center;
+    top: 18px;
+	font-size:35px;
+}
+#main-container-home .content {
+    padding-left: 10px;
+}
+.post-content {
+    padding-top: 0px;
+}
+.anspress .ap-q-title {
+    display: none;
+ }
+.ask_question {
+   float:left;
+}
+.ap-qaf-inner {
+    display: table;
+    float: right;
+    margin: 0 auto;
+    padding-right: 0px;
+}
+.ap-qaf-inner > .form-control {
+    float: left;
+    margin-bottom: 0;
+}
+.ap-qaf-inner > button {margin-bottom:0;}
+body.anspress .ap-container{
+width:75%;
+border-right: 1px solid #DEDEDE;
+padding-top: 1em;
+padding-left:1em;
+padding-right:1em;
+}
+.menu-title {
+	margin: 0px;
+	padding: 1rem 0.875rem 0;
+	line-height: 0 }
+.ap-footer{display:none;}
+#footer {
+	background: white;
+	box-shadow: 0px -10px 36px -10px rgba(61,61,61,0.1);
+	//position:fixed;
+	bottom:0;
+	z-index:999;
+	}
+.ap-btn.ap-unfollow, .ap-btn.ap-success{
+background: none repeat scroll 0 0 #1dbaf4;
+font-family:"proxima_novalight",Helvetica,Arial,sans-serif;
+font-size:1rem;
+}
+.footer-logo {
+	padding-top: 1rem; }
+
+.tab-bar {
+	background: none repeat scroll 0% 0% #4B5660; }
+
+.side-nav li:hover:not(.button), .side-nav li:focus:not(.button) {
+	color: white;
+	background: #71808d; }
+.side-nav li a:hover:not(.button), .side-nav li a:focus:not(.button) {
+	color: white;
+}
+ 
+.menu-title a:hover, a:focus {
+	color: white; }
+
+.side-nav li.active > a:first-child:not(.button) {
+	background: none repeat scroll 0% 0% #64707a;
+	color: white;
+	font-family: "proxima_novalight",Helvetica,Arial,sans-serif }
+
+.off-canvas-list li.active > a:first-child:not(.button) {
+	background: none repeat scroll 0% 0% #64707a;
+	color: white;
+	font-family: "proxima_novalight",Helvetica,Arial,sans-serif }
+
+.tab-bar .left-small {
+	border-right: solid 1px #959595; }
+
+.tab-bar .right-small {
+	border-left: solid 1px #959595; }
+
+.left-off-canvas-menu, .right-off-canvas-menu {
+	background: none repeat scroll 0% 0% #4B5660; }
+
+ul.off-canvas-list li label {
+	background: none repeat scroll 0% 0% #64707a;
+	color: white; }
+
+ul.off-canvas-list li a {
+	border-bottom: 1px solid #959595;
+	color: white; }
+
+ul.off-canvas-list li a:hover {
+	background: #71808d; }
+
+/*--------------------
+ * Module Themes
+ *------------------*/
+
+/*-- Forum Theme - Light Blue (#1dbaf4) --*/
+
+.episteme-logo-forum {
+	background: url(img/episteme-logo-forum.png);
+	width: 160px;
+	height: 80px; }
+
+.register-expert-forum, .forum-search-panel button, .forum-post-tags span {
+	background: #1dbaf4; }
+
+.register-expert-forum:hover, .forum-search-panel button:hover .forum-post-tags span:hover, {
+	background: #1278A2; }
+
+.forum-post-title a h5 {
+	color: #1dbaf4; }
+
+.forum-post-title a h5:hover {
+	color: #1278A2; }
+
+/*-- TechTalk Theme - Light Green (#1dbaf4) --*/
+
+.episteme-logo-techtalk {
+	background: url(img/episteme-logo-techtalk.png);
+	width: 160px;
+	height: 80px; }
+
+.register-expert-techtalk {
+	background: #2ecc71; }
+
+.register-expert-techtalk:hover {
+	background: #1fae5b; }
+/*--------------------
+ * Store
+ *------------------*/
+
+.store-showcase {
+	padding-top: 2rem;
+	border-bottom: solid 1px #dedede;
+	margin-bottom: 1rem !important; }
+
+.store-showcase-slider .slick-track:before, .store-showcase-slider .slick-track:after {
+    content: "";
+    display: table;
+    padding: 0.5rem 0; }
+
+.slick-slider {
+    margin-bottom: 0px !important; }
+
+.store-showcase-slider .slick-slide {
+	opacity: 0.5;
+	padding: 0rem 1rem;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease; }
+
+.store-showcase-slider .slick-center {
+	opacity: 1;
+	-moz-transform: scale(1.08);
+	-ms-transform: scale(1.08);
+	-o-transform: scale(1.08);
+	-webkit-transform: scale(1.08);
+	transform: scale(1.08); }
+
+.store-container {
+	 }
+
+.store-container .panel {
+	padding: 0.7rem;
+	margin-bottom: 0.8rem; }
+
+.store-filter-search {
+	/*border-bottom: solid 1px #dedede;*/ }
+
+.store-filter-search input {
+	font-family: "proxima_novalight",Helvetica,Arial,sans-serif;
+	margin: 0; }
+
+.store-filter-search .sub-nav li {
+	margin-bottom: 0; }
+
+.store-filter-search dl dd {
+	margin-bottom: 0; }
+
+.store-app-list {
+	background: #dedede;
+	padding: 2rem 2rem 1rem; }
+
+/*-- Store Theme - Light Orange (#1dbaf4) --*/
+
+.episteme-logo-store {
+	background: url(img/episteme-logo-store.png);
+	width: 160px;
+	height: 80px; }
+
+.register-expert-store {
+	background: #f57b3d; }
+
+.register-expert-store:hover {
+	background: #d8652a; }
+
+/*-- Periodiko Theme - Light Red (#1dbaf4) --*/
+
+.episteme-logo-periodiko {
+	background: url(img/episteme-logo-periodiko.png);
+	width: 160px;
+	height: 80px; }
+
+.register-expert-periodiko {
+	background: #dd5749; }
+
+.register-expert-periodiko:hover {
+	background: #bb4033; }
+
+/*-- CoE Plus Theme - Teal (#1dbaf4) --*/
+
+.episteme-logo-coeplus {
+	background: url(img/episteme-logo-coeplus.png);
+	width: 160px;
+	height: 80px; }
+
+.register-expert-coeplus, .additional-information {
+	background: #1e969a; }
+
+.register-expert-coeplus:hover, .additional-information:hover {
+	background: #157a7d; }
+
+/*--------------------
+ * Home
+ *------------------*/
+
+.episteme-logo-home {
+	background: url(img/episteme-logo.png);
+	width: 160px;
+	height: 80px; }
+
+.side-nav-container {
+	padding: 0;
+	top: 0;
+	bottom: 0;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	position: fixed;
+	/*margin-bottom: 4rem;*/ /* Un-comment if quick-links is used */
+	z-index: 99; }
+
+.logo {
+	padding-top: 0.4rem;
+	padding-bottom: 0.4rem;
+	padding-left:0;}
+
+#main-container-home {
+	background: url(img/episteme-bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;  }
+
+.header-home {
+	border-bottom: 1px solid #dedede;
+	box-shadow: none; }
+
+.slick {
+	padding: 4.5rem 0 0 0;
+	z-index: 98; }
+
+.slick img {
+	-webkit-filter: drop-shadow(0px 0px 15px rgba(0,0,0,0.5));
+    filter: url("data:image/svg+xml;utf8,<svg height='0' xmlns='http://www.w3.org/2000/svg'><filter id='drop-shadow'><feGaussianBlur in='SourceAlpha' stdDeviation='15'/><feOffset dx='0' dy='0' result='offsetblur'/><feFlood flood-color='rgba(0,0,0,0.5)'/><feComposite in2='offsetblur' operator='in'/><feMerge><feMergeNode/><feMergeNode in='SourceGraphic'/></feMerge></filter></svg>#drop-shadow");
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=0, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=0, Color='#444')"; }
+
+.slick p {
+	line-height: 1.8rem;
+	font-size: 1.5rem;
+	color: #c7c7c7;
+	text-shadow: 0 0 8px rgba(28, 166, 223, 0.3); }
+
+.slick h1, .slick h2, .slick h3, .slick h4, .slick h5, .slick h6 {
+	font-family: "proxima_novaregular",Helvetica,Arial,sans-serif;
+	margin-bottom: 1.2rem;
+	color: #fff;
+	text-shadow: 0 0 8px rgba(28, 166, 223, 0.5); }
+
+@media only screen and (max-width: 40em) {
+	.slick {
+	padding: 2rem 0;
+	z-index: 98; } }
+
+.latest-news {
+	padding: 2rem 0;
+	border-top: solid 1px #dedede; }
+
+/*--------------------
+ * Forum
+ *------------------*/
+
+.tabs dd > a, .tabs .tab-title > a {
+	font-family: "proxima_novalight",Helvetica,Arial,sans-serif; }
+
+.forum-left-container {
+	padding-top: 2rem;
+	border-right: solid 1px #dedede; }
+
+@media only screen and (min-width:0em) and (max-width:64em) {
+	.forum-left-container {
+		padding-top: 2rem;
+		border-right: none; } }
+
+.forum-left-container .tabs ul ol dl {
+	line-height: 1; }
+
+.forum-left-container .tabs {
+	border-bottom: solid 1px #dedede; }
+
+.tabs dd > a, .tabs .tab-title > a {
+	padding: 1rem; }
+
+.forum-right-container {
+	padding-top: 2rem; }
+
+.forum-search-panel button {
+	font-family: "proxima_novalight",Helvetica,Arial,sans-serif;
+	padding: 0.5rem 1rem;
+	margin: 0; }
+
+.forum-search-panel input {
+	font-family: "proxima_novalight",Helvetica,Arial,sans-serif;
+	margin: 0; }
+
+.forum-left-container .panel {
+	padding: 0.7rem;
+	margin-bottom: 0.8rem; }
+
+.forum-filter {
+	border-bottom: solid 1px #dedede; }
+
+.forum-filter .sub-nav li {
+	margin-bottom: 0; }
+
+.forum-filter dl dd {
+	margin-bottom: 0; }
+
+.sub-nav {
+	margin: 0.25rem 0px 1.125rem -0.75rem }
+
+.sub-nav:nth-child(1) {
+	margin-left: 0.5rem; }
+
+.sub-nav dd {
+	margin-left: 0rem; }
+
+.sub-nav dt a, .sub-nav dd a, .sub-nav li a {
+	padding: 0.1875rem 0.5rem; }
+
+.sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
+	background: #949FA9;
+	padding: 0.1875rem 0.5rem; }
+
+.sub-nav dt.active a:hover, .sub-nav dd.active a:hover, .sub-nav li.active a:hover {
+	background: none repeat scroll 0% 0% #808B95;}
+
+.forum-post-title a h5 {
+	font-family: 'proxima_novasemibold',Helvetica,Arial,sans-serif;
+	margin-top: 1.2rem;
+	margin-bottom: 0; }
+
+.forum-post-details p {
+	font-size: 0.8rem;
+	margin-bottom: 0.7rem; }
+
+.forum-post-tags span {
+	color: white;
+	border-radius: 16px;
+	font-size: 0.8rem;
+	padding: 0.4rem 0.7rem;
+	margin-right: 0.2rem;
+	margin-top: 0.5rem; }
+
+.forum-posts .panel {
+	margin-top: 1.8rem;
+	background: white;
+	border: none; }
+
+.forum-post-meta-info {
+	font-size: 0.6rem;
+	text-align: center;
+	color: #444; }
+
+.forum-post-meta-info span {
+	font-size: 0.6rem;
+	text-align: center; }
+
+.forum-post-meta-info .forum-count {
+	font-size: 1.2rem;
+	text-align: center; }
+.ask_question_forum {
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.ap-qaf-inner.class_clear {
+    padding-top: 10px;
+	float:right;
+	padding-right: 10px;
+}
+/*--------------------
+ * Periodiko
+ *------------------*/
+
+.coe-lead {
+	color:green; }
+
+.email {
+	color:blue; }
+
+.big-data {
+	margin-left:130px; }
+
+/*--------------------
+ * CoE Plus
+ *------------------*/
+
+form {
+	font-family: "proxima_novalight",Helvetica,Arial,sans-serif; }
+
+form label {
+	line-height: 2;
+	font-size: 1rem; }
+
+.engage-small-screen-title p {
+	font-size: 0.8rem; }
+
+.additional-information {
+	padding: 0.8rem 1rem;
+	font-size: 1rem;
+	font-family: "proxima_novalight",Helvetica,Arial,sans-serif; }
+
+/*--------------------
+ * Icon Fonts
+ *------------------*/
+
+.episteme-store {
+	color: #fff;
+	font-size: 1.8rem; }
+
+.episteme-forum {
+	color: #fff;
+	font-size: 1.8rem; }
+
+.episteme-user {
+	color: #fff;
+	font-size: 1.8rem; }
+
+.episteme-tech-talk {
+	color: #fff;
+	font-size: 1.8rem; }
+
+.episteme-periodiko {
+	color: #fff;
+	font-size: 1.8rem; }
+
+.episteme-coe-plus {
+	color: #fff;
+	font-size: 1.8rem; }
+
+.episteme-menu {
+	color: #fff;
+	font-size: 1.8rem; }
+
+.episteme-questions:before {
+	color: #2f2f2f;
+	padding-right: 0.5rem; }
+
+.episteme-informational:before {
+	color: #2f2f2f;
+	padding-right: 0.5rem; }
+
+.episteme-concepts:before {
+	color: #2f2f2f;
+	padding-right: 0.5rem; }
+
+.episteme-users:before {
+	color: #2f2f2f;
+	padding-right: 0.5rem; }
+
+.episteme-bd:before {
+	color: #2f2f2f;
+	padding-right: 0.5rem; }
+
+.episteme-poc:before {
+	color: #2f2f2f;
+	padding-right: 0.5rem; }
+
+.episteme-training:before {
+	color: #2f2f2f;
+	padding-right: 0.5rem; }
+
+@media only screen and (min-width:0em) and (max-width:320px) {
+	.footer-logo div div.text-right p {
+    font-size: 13px;
+}
+}
